@@ -4,25 +4,22 @@ package encapsulated_constructor_keyword;
 
 
 public class person {
-    // Instance variables
-    private String name;
-    private int age;
+    private static final String Name = null;
+    private static int age;
 
     public person(String name, int age) {
-        this.name = name;
-        this.age = age;
+        person.age = age;
     }
 
     public static void displayInfo() {
-        System.out.println("Name: " + name + ", Age: " + age);
+        //String name;
+        System.out.println("Name: " + Name + ", Age: " + age);
     }
 
     // Main method to run the program
     public static void main(String[] args) {
         
-        person person = new person("Alice", 30);
-
-        person.displayInfo();
+        encapsulated_constructor_keyword.person.displayInfo();
     }
 }
 
