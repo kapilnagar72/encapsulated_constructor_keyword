@@ -1,6 +1,5 @@
 # encapsulated_constructor_keyword
 
-# encapsulated_constructor_keyword
 
           **  encapsulated_constructor_keyword  **
 
