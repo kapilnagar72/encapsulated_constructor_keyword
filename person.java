@@ -13,7 +13,7 @@ public class person {
         this.age = age;
     }
 
-    public void displayInfo() {
+    public static void displayInfo() {
         System.out.println("Name: " + name + ", Age: " + age);
     }
 
